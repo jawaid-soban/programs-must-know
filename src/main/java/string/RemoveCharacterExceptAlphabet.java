@@ -3,14 +3,14 @@ package string;
 public class RemoveCharacterExceptAlphabet {
 
     public static String removeCharacterExceptAlphabet(String str){
-        StringBuffer sf = new StringBuffer();
+        StringBuffer sb = new StringBuffer();
         for (int i = 0; i < str.length(); i++){
             int ascii = (int) str.charAt(i);
             if((ascii >= 65 && ascii <=90) || (ascii >= 97 && ascii <= 122)){
-                sf.append(str.charAt(i));
+                sb.append(str.charAt(i));
             }
         }
-        return sf.toString();
+        return sb.toString();
     }
 
     public static void main(String[] args) {
