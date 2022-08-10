@@ -13,5 +13,9 @@ public class RemoveBrackets {
 
     public static void main(String[] args) {
         System.out.println(RemoveBrackets.removeBrackets("a+((b-c)+d)"));
+        int n = (int) '0';
+        int m = (int) '9';
+        System.out.println(n);
+        System.out.println(m);
     }
 }
